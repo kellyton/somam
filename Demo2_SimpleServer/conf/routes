@@ -2,13 +2,6 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-##### Configuração
-##### Era para ir automatico. Está aqui só para ficar fácil testar
-GET     /registrarse		controllers.Application.registrarse()
-
-
-
-
 ##### Apis publicas
 ##### São essas as chamadas que são influenciadas pelo relationship aware
 GET     /chamada1			controllers.Application.chamada1()
@@ -16,9 +9,15 @@ GET     /chamada2			controllers.Application.chamada2()
 GET     /chamada3			controllers.Application.chamada3()
 
 
-###### Cadastros
+##### Era para ir automatico. Está aqui só para ficar fácil testar
+GET     /selfregister		controllers.Application.selfRegister()
 
+##### Configuração
+GET     /selfregister		controllers.Configuration.selfRegister()
 
+###### Create automatic Relationships
+GET		/createRels			controllers.Configuration.createBasicRelationships()
+GET		/revokeRels			controllers.Configuration.revokeRelationships()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

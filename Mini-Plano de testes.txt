@@ -1,0 +1,10 @@
+Pra testar bonito tem que ter:
+2 servidores web (A e B) provendo serviços
+1 cliente não web (C) consumindo de A e B
+A consumindo de B e B consumindo de A
+
+-- Fazer alterações nas permissões de relacionamentos de A e B e testar de novo, pra ver se parou de responder
+
+
+
+-- Devolver as permissões e ver se voltou a responder

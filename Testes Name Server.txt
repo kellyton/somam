@@ -1,0 +1,7 @@
+http://192.168.15.4:9000/bind?id=social%20machine%201&host=192.168.15.4&port=9000
+http://192.168.15.4:9000/list
+http://192.168.15.4:9000/bind?id=social%20machine%202&host=192.168.15.4&port=9001
+http://192.168.15.4:9000/rebind?id=social%20machine%201&host=192.168.15.4&port=9002
+http://192.168.15.4:9000/lookup?id=social%20machine%201
+http://192.168.15.4:9000/bind?id=social%20machine%203&host=192.168.15.4&port=9003
+http://192.168.15.4:9000/unbind?id=social%20machine%203
